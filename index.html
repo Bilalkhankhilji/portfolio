@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Bilal | Assistant Network Administrator & Cybersecurity Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <h1 class="logo"><span class="accent-symbol">&lt;</span>Bilal.Sec <span class="accent-symbol">/&gt;</span></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="muhammad-bilal-resume.pdf" download class="nav-resume-btn"><i class="fa-solid fa-file-arrow-down"></i> Resume</a></li>
+                    <li><a href="#contact" class="nav-btn">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="badge"><i class="fa-solid fa-shield-halved"></i> Assistant Network Administrator</span>
+                <h2>Securing Enterprise Networks & Infrastructure</h2>
+                <p>Based in Quetta, Balochistan, Pakistan. Specializing in Linux server hardening, firewall automation, network reconnaissance scripting, and defensive web security architecture.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary"><i class="fa-solid fa-code-branch"></i> View Projects</a>
+                    <a href="muhammad-bilal-resume.pdf" download class="btn-secondary"><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+                    <a href="https://github.com/Bilalkhankhilji" target="_blank" class="btn-secondary"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="terminal-mockup">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="terminal-title">bilal@bra-sec-node:~</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">$</span> sudo ufw status verbose</p>
+                        <p class="output">Status: active (logging high)</p>
+                        <p><span class="prompt">$</span> fail2ban-client status sshd</p>
+                        <p class="output">|- Number of jail: 1</p>
+                        <p class="output">`- Status jail: sshd [active]</p>
+                        <p><span class="prompt">$</span> python3 scanner.py --target 10.0.0.0/24</p>
+                        <p class="output text-success">[+] Reconnaissance completed securely.</p>
+                        <span class="cursor">_</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Professional Profile</h2>
+                <p>Dedicated to enterprise resilience and threat mitigation</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fa-solid fa-network-wired feature-icon"></i>
+                    <h3>Network Administration</h3>
+                    <p>Managing and optimizing core routing, VLAN topologies, and active directory infrastructure at the Balochistan Revenue Authority.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fa-solid fa-lock feature-icon"></i>
+                    <h3>Server Hardening & SIEM</h3>
+                    <p>Deploying automated UFW firewalls, Fail2ban intrusion defense layers, and structured log parsing procedures to counter brute-force vectors.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fa-solid fa-terminal feature-icon"></i>
+                    <h3>Offensive & Defensive Scripting</h3>
+                    <p>Writing custom Python reconnaissance tools, socket-based port scanners, and implementing strict PDO secure coding controls against OWASP Top 10 flaws.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Competencies</h2>
+                <p>Tools, frameworks, and core technologies</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fa-brands fa-linux"></i> Operating Systems & Networking</h3>
+                    <div class="tag-cloud">
+                        <span>Linux (Ubuntu/Debian/RHEL)</span>
+                        <span>Bash Scripting</span>
+                        <span>TCP/IP Protocols</span>
+                        <span>DNS & DHCP</span>
+                        <span>UFW / iptables</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-shield-cat"></i> Security & Defense</h3>
+                    <div class="tag-cloud">
+                        <span>Fail2ban</span>
+                        <span>SIEM Log Analysis</span>
+                        <span>Vulnerability Assessment</span>
+                        <span>Network Hardening</span>
+                        <span>OWASP Top 10</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-code"></i> Programming & Tools</h3>
+                    <div class="tag-cloud">
+                        <span>Python (Sockets / Reconfig)</span>
+                        <span>PHP (PDO Prepared Statements)</span>
+                        <span>Git & GitHub Workflows</span>
+                        <span>VS Code</span>
+                        <span>Network Scanners</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Cybersecurity Projects</h2>
+                <p>Open-source contributions and technical repositories</p>
+            </div>
+            <div class="project-grid">
+
+                <!-- Project 1: Enterprise Network Hardening & SIEM -->
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-server folder-icon"></i>
+                        <div class="card-links">
+                            <a href="https://github.com/Bilalkhankhilji/enterprse-network-hardening-siem" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Enterprise Network Hardening & SIEM</h3>
+                    <p>Automated server hardening scripts (UFW firewall, Fail2ban intrusion prevention) and structured Linux log analysis playbooks for enterprise environments.</p>
+                    <div class="project-tags">
+                        <span>Linux</span>
+                        <span>Bash</span>
+                        <span>UFW</span>
+                        <span>Fail2ban</span>
+                    </div>
+                    <a href="https://github.com/Bilalkhankhilji/enterprse-network-hardening-siem" target="_blank" class="btn-github">
+                        View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+                <!-- Project 2: Python Port Scanner & Vulnerability Detector -->
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-binoculars folder-icon"></i>
+                        <div class="card-links">
+                            <a href="https://github.com/Bilalkhankhilji/python-port-scanner" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Python Port Scanner & Vulnerability Detector</h3>
+                    <p>A custom network reconnaissance tool built in Python to scan open ports, perform service banner grabbing, and flag potential vulnerabilities.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Sockets</span>
+                        <span>Reconnaissance</span>
+                    </div>
+                    <a href="https://github.com/Bilalkhankhilji/python-port-scanner" target="_blank" class="btn-github">
+                        View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+                <!-- Project 3: OWASP Web Security Labs -->
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-bug-slash folder-icon"></i>
+                        <div class="card-links">
+                            <a href="https://github.com/Bilalkhankhilji/owasp-web-security-labs" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>OWASP Web Security Labs</h3>
+                    <p>Documentation, attack vector analysis, and code-level remediation guides (such as PDO prepared statements) for critical OWASP Top 10 web vulnerabilities.</p>
+                    <div class="project-tags">
+                        <span>OWASP Top 10</span>
+                        <span>SQLi</span>
+                        <span>XSS</span>
+                        <span>Remediation</span>
+                    </div>
+                    <a href="https://github.com/Bilalkhankhilji/owasp-web-security-labs" target="_blank" class="btn-github">
+                        View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Professional Experience</h2>
+                <p>Career trajectory and institutional roles</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Present</span>
+                        <h3>Assistant Network Administrator</h3>
+                        <h4>Balochistan Revenue Authority (Quetta, Pakistan)</h4>
+                        <p>Overseeing network stability, securing departmental nodes, managing firewall rule sets, and auditing system event logs against unauthorized intrusion vectors.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Let's collaborate on enterprise security or infrastructure projects</p>
+            </div>
+            <div class="contact-box">
+                <p><i class="fa-solid fa-envelope"></i> bilalkhantaraqai@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Quetta, Balochistan, Pakistan</p>
+                <div class="contact-actions">
+                    <a href="mailto:bilalkhantaraqai@gmail.com" class="btn-primary"><i class="fa-solid fa-paper-plane"></i> Send Direct Email</a>
+                    <a href="https://github.com/Bilalkhankhilji" target="_blank" class="btn-secondary"><i class="fa-brands fa-github"></i> Explore GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Muhammad Bilal. All rights reserved.</p>
+            <p class="footer-sub">Assistant Network Administrator | Balochistan Revenue Authority</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
