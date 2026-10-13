@@ -53,15 +53,14 @@
                         <span class="dot green"></span>
                         <span class="terminal-title">bilal@bra-sec-node:~</span>
                     </div>
-                    <div class="terminal-body">
-                        <p><span class="prompt">$</span> sudo ufw status verbose</p>
-                        <p class="output">Status: active (logging high)</p>
-                        <p><span class="prompt">$</span> fail2ban-client status sshd</p>
-                        <p class="output">|- Number of jail: 1</p>
-                        <p class="output">`- Status jail: sshd [active]</p>
-                        <p><span class="prompt">$</span> python3 scanner.py --target 10.0.0.0/24</p>
-                        <p class="output text-success">[+] Reconnaissance completed securely.</p>
-                        <span class="cursor">_</span>
+                    <div class="terminal-body" id="terminal-body">
+                        <p class="output text-success">Welcome to Bilal's Interactive Terminal v2.4 [Security Node]</p>
+                        <p class="output">Type <span class="prompt">'help'</span> to view available system commands.</p>
+                        <div id="terminal-output"></div>
+                        <div class="terminal-input-line">
+                            <span class="prompt">bilal@bra-sec-node:~$</span>
+                            <input type="text" id="terminal-input" autofocus autocomplete="off" spellcheck="false">
+                        </div>
                     </div>
                 </div>
             </div>
